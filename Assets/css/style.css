@@ -4,32 +4,34 @@
     margin: 0;
 }
 
+:root {
+    --light: #dde0e1;
+    --dark: #1b3667;
+}
+
 body {
-    background-color: #d9dcd6;
+    background-color: var(--light);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 header {
     padding: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #1b3667;
-    color: #dde0e1;
+    background-color: var(--dark);
 }
 
 header h1 {
     display: inline-block;
     font-size: 2.25rem;
     margin: 0 0 0 -20px;
-    border: 2px solid #dde0e1;
     padding: 1rem 1rem 1rem 3rem;
-    background-color: #dde0e1;
-    color: #1b3667
+    background-color: var(--light);
+    color: var(--dark);
 }
 
 header nav {
     padding-top: 2rem;
     margin-right: 18px;
     float: right;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 20px;
 }
 
@@ -43,7 +45,7 @@ header nav ul li {
 }
 
 a {
-    color: #dde0e1;
+    color: var(--light);
     text-decoration: none;
 }
 
@@ -61,10 +63,50 @@ figure {
 }
 
 figure #inner {
-    width: 20%;
-    height: 20%;
-    background-color: white;
+    display: flex;
+    position: absolute;
+    width: 40%;
+    height: 8%;
+    margin-top: 8%;
+    left: 50%;
+    font-size: 175%;
+    padding: 1%;
+    color: var(--dark);
+    background-color: var(--light);
     background-position: bottom;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
+}
+
+h3 {
+    font-size: 270%;
+    width: 10%;
+    padding-top: 1rem;
+    color: var(--dark);
+    text-align: right;
+}
+
+.about {
+    display:flexbox;
+    margin: 3rem;
+}
+
+#text {
+    position: absolute;
+    left: 17%;
+    top: 52%;
+    padding: 2.5rem;
+    line-height: 1.6;
+    color: #454950;
+    border-left: .3rem solid var(--dark);
+}
+
+article {
+    display: flex;
+    margin-top: 8%;
+    padding: 2.5%;
+}
+
+#image1 {
+   position: absolute;
+   right: 15%;
 }
