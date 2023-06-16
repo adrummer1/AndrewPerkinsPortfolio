@@ -27,7 +27,6 @@ body {
 h1,
 h2,
 h3,
-h4,
 h5 {
     margin-bottom: 0.625rem;
     color: var(--dark);
@@ -49,6 +48,7 @@ h3 {
 
 h4 {
     font-size: 2rem;
+    color: var(--mygray)
 }
 
 h5 {
@@ -78,7 +78,7 @@ header nav {
     padding-top: 2rem;
     margin-right: 2rem;
     float: right;
-    font-size: 20px;
+    font-size: 2rem;
 }
 
 header nav ul {
@@ -112,7 +112,7 @@ figure #inner {
     position: absolute;
     width: 35%;
     height: 10%;
-    margin-top: 8%;
+    margin-top: 6%;
     left: 55%;
     padding: 1%;
     color: var(--dark);
@@ -130,7 +130,6 @@ main {
     flex-wrap: wrap;
     flex-direction: row;
     margin: 2rem;
-    height: 25rem;
     margin-bottom: 20px;
 }
 
@@ -148,8 +147,31 @@ main {
 }
 
 footer {
-    position: absolute;
-    bottom: 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
 }
 
+.columnb1 {
+    flex: 3%;
+    margin: 2rem;
+    height: 20%;
+    text-align: right;
+}
+
+.columnb2 {
+    flex: 10%;
+    padding: 5rem;
+    border-left: .3rem solid var(--dark);
+}
+
+.columnb3 {
+    flex: 10%;
+    padding: 5rem;
+}
+
+.columnb4 {
+    flex: 10%;
+    padding: 5rem;
+}
 
