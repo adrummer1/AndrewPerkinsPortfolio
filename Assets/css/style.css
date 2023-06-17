@@ -153,25 +153,41 @@ footer {
 }
 
 .columnb1 {
-    flex: 3%;
+    flex: 14.5%;
     margin: 2rem;
     height: 20%;
     text-align: right;
 }
 
 .columnb2 {
-    flex: 10%;
+    flex: 19%;
     padding: 5rem;
     border-left: .3rem solid var(--dark);
+    text-decoration: underline;
 }
 
 .columnb3 {
-    flex: 10%;
+    flex: 22%;
     padding: 5rem;
+    text-decoration: underline;
 }
 
 .columnb4 {
-    flex: 10%;
+    flex: 22%;
     padding: 5rem;
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 1235px) {
+    figure #inner {
+        height: 17%;
+    }
+}
+
+@media screen and (max-width: 612px) {
+    figure #inner {
+        width: 40%;
+        height: 20%;
+    }
 }
 
