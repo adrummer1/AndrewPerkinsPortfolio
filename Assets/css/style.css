@@ -86,6 +86,7 @@ header nav ul {
     list-style-type: none;
 }
 
+/* Styled page title for reverse color within header. */
 header nav ul li {
     display: inline-block;
     margin-left: 2.5rem;
@@ -103,10 +104,28 @@ p {
     font-size: 16px;
 }
 
+/* Hover attribute for navigation and images set for opacity effect. */
+header nav ul li:hover {
+    opacity: .7;
+}
+
 img:hover {
     opacity: .5;
 }
 
+/* Need to combine these? */
+.columnb2:hover {
+    opacity: .7;
+}
+.columnb3:hover {
+    opacity: .7;
+}
+
+.columnb4:hover {
+    opacity: .7;
+}
+
+/* Figure element for image with subtitle */
 figure {
     height: 200px;
     width: 100%;
@@ -116,6 +135,7 @@ figure {
     background-position: bottom;
 }
 
+/* Inner for subtitle box with absolute position for placement */
 figure #inner {
     position: absolute;
     width: 35%;
@@ -133,6 +153,7 @@ main {
     margin: 4rem auto;
 }
 
+/* Flex styling for row class. */
 .row {
     display: flex;
     flex-wrap: wrap;
@@ -141,6 +162,7 @@ main {
     margin-bottom: 20px;
 }
 
+/* Column styles for main content */
 .columna1 {
     flex: 5%;
     margin: 2rem;
@@ -162,6 +184,7 @@ footer {
     flex-direction: row;
 }
 
+/* Columns for footer */
 .columnb1 {
     flex: 14.5%;
     margin: 2rem;
@@ -188,6 +211,8 @@ footer {
     text-decoration: underline;
 }
 
+
+/* Set special Media styles for subtitle, row, columns and footer*/
 @media screen and (max-width: 1335px) {
     .columna1 {
         text-align: left;
@@ -196,7 +221,7 @@ footer {
 
 @media screen and (max-width: 1235px) {
     figure #inner {
-        height: 17%;
+        height: 14%;
         left: 40%;
     }
     #hero {
@@ -214,6 +239,18 @@ footer {
 
     .row {
         flex-direction: column;
+    }
+
+    footer {
+        flex-direction: column;
+    }
+
+    .columnb1 {
+        text-align: left;
+    }
+
+    .columnb2 {
+        border-left: none;
     }
 }
 
