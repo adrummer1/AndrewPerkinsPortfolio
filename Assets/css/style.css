@@ -113,7 +113,6 @@ img:hover {
     opacity: .5;
 }
 
-/* Need to combine these? */
 .columnb2:hover {
     opacity: .7;
 }
@@ -178,7 +177,11 @@ main {
     border-left: .3rem solid var(--dark);
 }
 
-.columna2 img {
+#hero {
+    width: 1042px;
+}
+
+#image {
     width: 519px;
     height: 250px;
 }
@@ -218,28 +221,92 @@ footer {
 
 
 /* Set special Media styles for subtitle, row, columns and footer*/
-@media screen and (max-width: 1335px) {
+@media screen and (max-width: 2560px) {
+    /* nav {
+        padding: 3%;
+    } */
+    
+    #hero {
+        width: 100%;
+    }
+
+    #image {
+        width: 49.5%;
+        height: auto;
+    }
+
+    figure #inner {
+        top: 90px;
+        height: 5%;
+    }
+
+    p {
+        font-size: 2.5rem;
+    }
+
+    footer h4 {
+        font-size: 3rem;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    nav {
+        padding: 3%;
+    }
+    
     .columna1 {
         text-align: left;
     }
+
+    figure #inner {
+        top: 120px;
+        height: 8%;
+    }
+
+    p {
+        font-size: 2rem;
+        padding: 3%
+    }
+
+    footer h4 {
+        font-size: 2rem;
+    }
+
+    .columnb1 {
+        margin-left: 2.5%
+    }
 }
 
-@media screen and (max-width: 1235px) {
-    figure #inner {
-        height: 14%;
-        left: 40%;
+@media screen and (max-width: 1024px) {
+    nav {
+        padding: 2%;
     }
-    #hero {
-        width: 520px;
-        height: 250px;
+    
+    figure #inner {
+        width: 30%;
+        height: 13%;
+        left: 60%;
+    }
+    
+    p {
+        font-size: 1.5rem;
+    }
+
+    footer h4 {
+        font-size: 1.5rem;
+    }
+
+    footer h3 {
+        margin-left: 35px;
     }
 }
 
-@media screen and (max-width: 612px) {
+@media screen and (max-width: 768px) {
     figure #inner {
-        width: 45%;
+        width: 35%;
         height: 12%;
-        left: 27%;
+        top: 180px;
+        left: 55%;
     }
 
     .row {
@@ -259,38 +326,72 @@ footer {
     }
 
     #hero, .columna2 img {
-        width: 380px;
-        height: auto;
+        width: 623px;
+    }
+
+    .columnb2 {
+        margin-top: -5%;
+    }
+
+    .columnb3 {
+        margin-top: -10%;
+    }
+
+    .columnb4 {
+        margin-top: -10%;
     }
 }
 
 @media screen and (max-width: 425px) {
     figure #inner {
-        height: 17%;
+        width: 50%;
+        height: 9%;
+        font-size: 2.2rem;
+        top: 43%;
+        left: 45%;
     }
-    #hero, .columna2 img {
-        width: 320px;
-        height: auto;
+
+    .columna2 img {
+        width: 320px !important;
+    }
+
+    .columnb2 {
+        margin-top: -10%;
+    }
+
+    .columnb3 {
+        margin-top: -20%;
+    }
+
+    .columnb4 {
+        margin-top: -20%;
     }
 }
 
-@media screen and (max-width: 365px) {
+@media screen and (max-width: 375px) {
     .columna2 {
         padding: 2rem;
     }   
 }
 
 @media screen and (max-width: 320px) {
+    header {
+        width: 400px;
+    }
+    
+    figure {
+        width: 400px;
+    }
+    
+    figure #inner {
+        height: 9%;
+        width: 60%;
+        left: 50%;
+        top: 45%;
+    } 
+
     footer h4 {
         font-size: 15px;
     }  
-    figure #inner {
-        height: 14%;
-        width: 70%;
-    } 
-    
-    #hero, .columna2 img {
-        width: 270px;
-    }
 }
 
