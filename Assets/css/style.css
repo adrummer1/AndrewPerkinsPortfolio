@@ -138,7 +138,7 @@ figure {
 figure #inner {
     position: absolute;
     width: 35%;
-    height: 10%;
+    height: auto;
     margin-top: 6%;
     left: 55%;
     padding: 1%;
@@ -237,7 +237,7 @@ footer {
 
     figure #inner {
         top: 90px;
-        height: 8%;
+        height: 15px;
     }
 
     p {
@@ -260,7 +260,7 @@ footer {
 
     figure #inner {
         top: 120px;
-        height: 8%;
+        height: 12%;
     }
 
     p {
@@ -383,5 +383,5 @@ footer {
         left: 50%;
         top: 60%;
     } 
-
+}
 
