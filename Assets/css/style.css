@@ -178,6 +178,11 @@ main {
     border-left: .3rem solid var(--dark);
 }
 
+.columna2 img {
+    width: 519px;
+    height: 250px;
+}
+
 footer {
     display: flex;
     flex-wrap: wrap;
@@ -252,6 +257,40 @@ footer {
     .columnb2 {
         border-left: none;
     }
+
+    #hero, .columna2 img {
+        width: 380px;
+        height: auto;
+    }
 }
 
+@media screen and (max-width: 425px) {
+    figure #inner {
+        height: 17%;
+    }
+    #hero, .columna2 img {
+        width: 320px;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 365px) {
+    .columna2 {
+        padding: 2rem;
+    }   
+}
+
+@media screen and (max-width: 320px) {
+    footer h4 {
+        font-size: 15px;
+    }  
+    figure #inner {
+        height: 14%;
+        width: 70%;
+    } 
+    
+    #hero, .columna2 img {
+        width: 270px;
+    }
+}
 
