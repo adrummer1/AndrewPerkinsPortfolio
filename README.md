@@ -20,3 +20,7 @@ Below the section displaying my projects is the footer, which has my contact inf
 
 ## Credits
 I leaned on the various class activities studied in Module 2 Advanced CSS to help guide the style of this page. I also utilized a variety of the resources supplied during the lessons, including CSS Tricks, W3 Schools, and MDN Web Docs.
+
+## Screenshot
+![Screenshot](./assets/images/Andrew%20Perkins%20Portfolio.jpg)
+
