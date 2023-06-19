@@ -220,11 +220,11 @@ footer {
 }
 
 
-/* Set special Media styles for subtitle, row, columns and footer*/
+/* Set special Media queries for subtitle, row, columns and footer*/
 @media screen and (max-width: 2560px) {
-    /* nav {
+    nav {
         padding: 3%;
-    } */
+    }
     
     #hero {
         width: 100%;
@@ -343,12 +343,20 @@ footer {
 }
 
 @media screen and (max-width: 425px) {
+    header {
+        width: 400px;
+    }
+    
+    figure {
+        width: 400px;
+    }
+
     figure #inner {
         width: 50%;
-        height: 9%;
+        height: auto;
         font-size: 2.2rem;
-        top: 43%;
-        left: 45%;
+        top: 55%;
+        left: 35%;
     }
 
     .columna2 img {
@@ -368,30 +376,12 @@ footer {
     }
 }
 
-@media screen and (max-width: 375px) {
-    .columna2 {
-        padding: 2rem;
-    }   
-}
-
 @media screen and (max-width: 320px) {
-    header {
-        width: 400px;
-    }
-    
-    figure {
-        width: 400px;
-    }
-    
     figure #inner {
-        height: 9%;
+        height: 12%;
         width: 60%;
         left: 50%;
-        top: 45%;
+        top: 60%;
     } 
 
-    footer h4 {
-        font-size: 15px;
-    }  
-}
 
