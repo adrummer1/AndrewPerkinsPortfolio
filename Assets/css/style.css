@@ -237,7 +237,7 @@ footer {
 
     figure #inner {
         top: 90px;
-        height: 60px;
+        height: auto;
     }
 
     p {
@@ -355,7 +355,7 @@ footer {
         width: 50%;
         height: auto;
         font-size: 2.2rem;
-        top: 55%;
+        top: 45%;
         left: 35%;
     }
 
@@ -381,7 +381,7 @@ footer {
         height: 12%;
         width: 60%;
         left: 50%;
-        top: 60%;
+        top: 45%;
     } 
 }
 
