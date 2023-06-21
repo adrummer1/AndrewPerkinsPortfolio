@@ -237,7 +237,6 @@ footer {
 
     figure #inner {
         top: 90px;
-        height: 15px;
     }
 
     p {
@@ -260,7 +259,7 @@ footer {
 
     figure #inner {
         top: 120px;
-        height: 12%;
+        height: 10%;
     }
 
     p {
@@ -284,7 +283,7 @@ footer {
     
     figure #inner {
         width: 30%;
-        height: 13%;
+        height: 15%;
         left: 60%;
     }
     
@@ -304,7 +303,7 @@ footer {
 @media screen and (max-width: 768px) {
     figure #inner {
         width: 35%;
-        height: 12%;
+        height: 15%;
         top: 180px;
         left: 55%;
     }
@@ -344,11 +343,11 @@ footer {
 
 @media screen and (max-width: 425px) {
     header {
-        width: 400px;
+        width: 440px;
     }
     
     figure {
-        width: 400px;
+        width: 440px;
     }
 
     figure #inner {
