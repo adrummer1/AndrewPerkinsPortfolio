@@ -14,7 +14,7 @@ Immediately below the header is a figure element that displays an image and a su
 
 Below the figure element is my bio section. It is styled with flex so it is responsive to different screen sizes.
 
-Below my bio is a section featuring images and links to my projects in GitHub. The images display opacity when hovered. The top image (hero) is twice the width and height of the smaller images. For now, I have only linked the hero image to GitHub and will add more links as add more to my portfolio. This section is styled with flex so it is responsive to different screen sizes. For instance, when a browser's max-width is 1235px and below, the hero image resizes to the same as the other images and all images wrap in the column.
+Below my bio is a section featuring images and links to my projects in GitHub. The images display opacity when hovered. The top image (hero) is twice the width and height of the smaller images. For now, I have only linked the hero image to GitHub and will add more links as I add more to my portfolio. This section is styled with flex so it is responsive to different screen sizes. I have also used media queries for specific screen sizes. For instance, when a browser's is viewed at a width of 425px and below, the hero image resizes to the same as the other images and all images wrap in the column.
 
 Below the section displaying my projects is the footer, which has my contact infomation. All contacts are linked.
 

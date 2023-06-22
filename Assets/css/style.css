@@ -137,8 +137,8 @@ figure {
 /* Inner for subtitle box with absolute position for placement */
 figure #inner {
     position: absolute;
-    width: 35%;
-    height: auto;
+    width: 40%;
+    height: 100%;
     margin-top: 6%;
     left: 55%;
     padding: 1%;
@@ -260,7 +260,7 @@ footer {
 
     figure #inner {
         top: 120px;
-        height: 10%;
+        height: 8%;
     }
 
     p {
@@ -285,7 +285,7 @@ footer {
     figure #inner {
         width: 30%;
         height: 15%;
-        left: 60%;
+        left: 50%;
     }
     
     p {
@@ -306,7 +306,7 @@ footer {
         width: 35%;
         height: 15%;
         top: 180px;
-        left: 55%;
+        left: 50%;
     }
 
     .row {
@@ -355,8 +355,8 @@ footer {
         width: 50%;
         height: auto;
         font-size: 2.2rem;
-        top: 35%;
-        left: 35%;
+        top: 55%;
+        left: 40%;
     }
 
     .columna2 img {
@@ -380,8 +380,8 @@ footer {
     figure #inner {
         height: 12%;
         width: 60%;
-        left: 50%;
-        top: 35%;
+        left: 55%;
+        top: 55%;
     } 
 }
 
