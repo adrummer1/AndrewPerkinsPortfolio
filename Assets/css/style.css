@@ -355,7 +355,7 @@ footer {
         width: 50%;
         height: auto;
         font-size: 2.2rem;
-        top: 65%;
+        top: 45%;
         left: 40%;
     }
 
@@ -378,10 +378,10 @@ footer {
 
 @media screen and (max-width: 320px) {
     figure #inner {
-        height: 12%;
+        height: 10%;
         width: 60%;
         left: 55%;
-        top: 65%;
+        top: 45%;
     } 
 }
 
